@@ -24,7 +24,7 @@ namespace Data.Models
         public ActivePlmnList ActivePlmnList { get; set; }
 
         [XmlElement(ElementName = "pciConflict", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
-        public List<PciConflict> PciConflicts { get; set; }
+        public List<int> PciConflicts { get; set; }
 
         [XmlElement(ElementName = "pciConflictCell", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public List<PciConflictCell> PciConflictCells { get; set; }
