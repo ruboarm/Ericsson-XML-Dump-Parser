@@ -14,7 +14,25 @@ namespace Data.Models
         [XmlElement(ElementName = "vsDataAreas", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public string VsDataAreas { get; set; }
 
-        [XmlElement(ElementName = "vsDataPlmn", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        [XmlElement(ElementName = "vsDataPlmn")]
         public VsDataPlmn VsDataPlmn { get; set; }
+
+        [XmlElement(ElementName = "vsDataLocationArea")]
+        public VsDataLocationArea VsDataLocationArea { get; set; }
+
+        [XmlElement(ElementName = "vsDataRoutingArea")]
+        public VsDataRoutingArea VsDataRoutingArea { get; set; }
+
+        [XmlElement(ElementName = "vsDataServiceArea")]
+        public VsDataServiceArea VsDataServiceArea { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalEUtranPlmn")]
+        public VsDataExternalEUtranPlmn VsDataExternalEUtranPlmn { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalENodeBFunction")]
+        public VsDataExternalENodeBFunction VsDataExternalENodeBFunction { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalEUtranCellFDD")]
+        public VsDataExternalEUtranCellFDD VsDataExternalEUtranCellFDD { get; set; }
     }
 }
