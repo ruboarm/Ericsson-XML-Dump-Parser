@@ -46,5 +46,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataExternalUtranPlmn")]
         public VsDataExternalUtranPlmn VsDataExternalUtranPlmn { get; set; }
+
+        [XmlElement(ElementName = "vsDataFreqManagement")]
+        public VsDataFreqManagement VsDataFreqManagement { get; set; }
     }
 }
