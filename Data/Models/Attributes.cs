@@ -37,5 +37,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataExternalGsmCell")]
         public VsDataExternalGsmCell VsDataExternalGsmCell { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalGsmPlmn")]
+        public VsDataExternalGsmPlmn VsDataExternalGsmPlmn { get; set; }
     }
 }
