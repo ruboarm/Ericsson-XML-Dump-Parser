@@ -49,5 +49,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataFreqManagement")]
         public VsDataFreqManagement VsDataFreqManagement { get; set; }
+
+        [XmlElement(ElementName = "vsDataEUtranFrequency")]
+        public VsDataEUtranFrequency VsDataEUtranFrequency { get; set; }
     }
 }
