@@ -43,5 +43,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataExternalUtranCell")]
         public VsDataExternalUtranCell VsDataExternalUtranCell { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalUtranPlmn")]
+        public VsDataExternalUtranPlmn VsDataExternalUtranPlmn { get; set; }
     }
 }
