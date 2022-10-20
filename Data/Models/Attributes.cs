@@ -34,5 +34,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataExternalEUtranCellFDD")]
         public VsDataExternalEUtranCellFDD VsDataExternalEUtranCellFDD { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalGsmCell")]
+        public VsDataExternalGsmCell VsDataExternalGsmCell { get; set; }
     }
 }
