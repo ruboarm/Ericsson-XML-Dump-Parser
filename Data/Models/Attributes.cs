@@ -40,5 +40,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataExternalGsmPlmn")]
         public VsDataExternalGsmPlmn VsDataExternalGsmPlmn { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalUtranCell")]
+        public VsDataExternalUtranCell VsDataExternalUtranCell { get; set; }
     }
 }
