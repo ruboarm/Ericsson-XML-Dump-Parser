@@ -55,5 +55,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataExternalEutranFrequency")]
         public VsDataExternalEutranFrequency VsDataExternalEutranFrequency { get; set; }
+
+        [XmlElement(ElementName = "vsDataExternalUtranFreq")]
+        public VsDataExternalUtranFreq VsDataExternalUtranFreq { get; set; }
     }
 }
