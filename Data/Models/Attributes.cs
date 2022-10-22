@@ -15,48 +15,48 @@ namespace Data.Models
         public string VsDataAreas { get; set; }
 
         [XmlElement(ElementName = "vsDataPlmn")]
-        public VsDataPlmn VsDataPlmn { get; set; }
+        public VsDataPlmn? VsDataPlmn { get; set; }
 
         [XmlElement(ElementName = "vsDataLocationArea")]
-        public VsDataLocationArea VsDataLocationArea { get; set; }
+        public VsDataLocationArea? VsDataLocationArea { get; set; }
 
         [XmlElement(ElementName = "vsDataRoutingArea")]
-        public VsDataRoutingArea VsDataRoutingArea { get; set; }
+        public VsDataRoutingArea? VsDataRoutingArea { get; set; }
 
         [XmlElement(ElementName = "vsDataServiceArea")]
-        public VsDataServiceArea VsDataServiceArea { get; set; }
+        public VsDataServiceArea? VsDataServiceArea { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalEUtranPlmn")]
-        public VsDataExternalEUtranPlmn VsDataExternalEUtranPlmn { get; set; }
+        public VsDataExternalEUtranPlmn? VsDataExternalEUtranPlmn { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalENodeBFunction")]
-        public VsDataExternalENodeBFunction VsDataExternalENodeBFunction { get; set; }
+        public VsDataExternalENodeBFunction? VsDataExternalENodeBFunction { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalEUtranCellFDD")]
-        public VsDataExternalEUtranCellFDD VsDataExternalEUtranCellFDD { get; set; }
+        public VsDataExternalEUtranCellFDD? VsDataExternalEUtranCellFDD { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalGsmCell")]
-        public VsDataExternalGsmCell VsDataExternalGsmCell { get; set; }
+        public VsDataExternalGsmCell? VsDataExternalGsmCell { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalGsmPlmn")]
-        public VsDataExternalGsmPlmn VsDataExternalGsmPlmn { get; set; }
+        public VsDataExternalGsmPlmn? VsDataExternalGsmPlmn { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalUtranCell")]
-        public VsDataExternalUtranCell VsDataExternalUtranCell { get; set; }
+        public VsDataExternalUtranCell? VsDataExternalUtranCell { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalUtranPlmn")]
-        public VsDataExternalUtranPlmn VsDataExternalUtranPlmn { get; set; }
+        public VsDataExternalUtranPlmn? VsDataExternalUtranPlmn { get; set; }
 
         [XmlElement(ElementName = "vsDataFreqManagement")]
-        public VsDataFreqManagement VsDataFreqManagement { get; set; }
+        public VsDataFreqManagement? VsDataFreqManagement { get; set; }
 
         [XmlElement(ElementName = "vsDataEUtranFrequency")]
-        public VsDataEUtranFrequency VsDataEUtranFrequency { get; set; }
+        public VsDataEUtranFrequency? VsDataEUtranFrequency { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalEutranFrequency")]
-        public VsDataExternalEutranFrequency VsDataExternalEutranFrequency { get; set; }
+        public VsDataExternalEutranFrequency? VsDataExternalEutranFrequency { get; set; }
 
         [XmlElement(ElementName = "vsDataExternalUtranFreq")]
-        public VsDataExternalUtranFreq VsDataExternalUtranFreq { get; set; }
+        public VsDataExternalUtranFreq? VsDataExternalUtranFreq { get; set; }
     }
 }
