@@ -314,7 +314,28 @@
           <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=CORE,MeContext=EPG,ManagedElement=1</xn:manages>
           <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=CORE,MeContext=mme01,ManagedElement=mme01</xn:manages>
           <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=LTE,MeContext=YE097_4G,ManagedElement=YE097_4G</xn:manages>
+          <xn:userDefinedState>Active</xn:userDefinedState>
+          <xn:locationName>""</xn:locationName>
+          <xn:userLabel>ONRM</xn:userLabel>
+          <xn:swVersion>OSSRC V16.0.4</xn:swVersion>
+          <xn:vendorName>Ericsson</xn:vendorName>
         </xn:attributes>
+        <xn:IRPAgent id="ONRM_IrpAgent">
+          <xn:attributes>
+            <xn:systemDN>SubNetwork=ONRM_ROOT_MO,ManagementNode=ONRM,IRPAgent=ONRM_IrpAgent</xn:systemDN>
+          </xn:attributes>
+          <xn:AlarmIRP id="AlarmIRP">
+            <xn:attributes>
+              <xn:irpVersion>1f1</xn:irpVersion>
+            </xn:attributes>
+          </xn:AlarmIRP>
+          <xn:NotificationIRP id="NotificationIRP">
+            <xn:attributes>
+              <xn:irpVersion>1n1</xn:irpVersion>
+            </xn:attributes>
+          </xn:NotificationIRP>
+        </xn:IRPAgent>
+      </xn:ManagementNode>
       </xn:ManagementNode>
       
       

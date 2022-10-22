@@ -7,13 +7,13 @@ using System.Xml.Serialization;
 
 namespace Data.Models
 {
-    [XmlRoot(ElementName = "ManagementNode", Namespace = "genericNrm.xsd")]
-    public class ManagementNode
+    [XmlRoot(ElementName = "AlarmIRP", Namespace = "genericNrm.xsd")]
+    public class AlarmIRP
     {
         [XmlAttribute(AttributeName = "id")]
         public string Id { get; set; }
 
         [XmlElement(ElementName = "attributes", Namespace = "genericNrm.xsd")]
-        public ManagementNodeAttributes Attributes { get; set; }
+        public AlarmIRPAttributes Attributes { get; set; }
     }
 }
