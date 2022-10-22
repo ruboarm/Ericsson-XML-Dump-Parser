@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bulkCmConfigDataFile xmlns:es="EricssonSpecificAttributes.17.28.xsd"
+    xmlns:un="utranNrm.xsd" xmlns:xn="genericNrm.xsd"
+    xmlns:gn="geranNrm.xsd" xmlns="configData.xsd">
+  <fileHeader fileFormatVersion="32.615 V4.5" vendorName="Ericsson"/>
+  <configData dnPrefix="Undefined">
+    <xn:SubNetwork id="ONRM_ROOT_MO_R">
+      <xn:VsDataContainer id="1">
+        <xn:attributes>
+          <xn:vsDataType>vsDataAreas</xn:vsDataType>
+          <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+          <es:vsDataAreas/>
+        </xn:attributes>
+        <xn:VsDataContainer id="283_10_2">
+          <xn:attributes>
+            <xn:vsDataType>vsDataPlmn</xn:vsDataType>
+            <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+            <es:vsDataPlmn>
+              <es:userLabel></es:userLabel>
+              <es:mcc>283</es:mcc>
+              <es:mnc>10</es:mnc>
+              <es:mncLength>2</es:mncLength>
+              <es:aliasPlmnIdentities></es:aliasPlmnIdentities>
+            </es:vsDataPlmn>
+          </xn:attributes>
+          <xn:VsDataContainer id="30110">
+            <xn:attributes>
+              <xn:vsDataType>vsDataLocationArea</xn:vsDataType>
+              <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+              <es:vsDataLocationArea>
+                <es:userLabel>LocationArea 30110</es:userLabel>
+                <es:lac>30110</es:lac>
+                <es:t3212>40</es:t3212>
+                <es:att>1</es:att>
+              </es:vsDataLocationArea>
+            </xn:attributes>
+            <xn:VsDataContainer id="110">
+              <xn:attributes>
+                <xn:vsDataType>vsDataRoutingArea</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataRoutingArea>
+                  <es:userLabel>RoutingArea 110</es:userLabel>
+                  <es:rac>110</es:rac>
+                  <es:nmo>1</es:nmo>
+                </es:vsDataRoutingArea>
+              </xn:attributes>
+            </xn:VsDataContainer>
+            <xn:VsDataContainer id="2131">
+              <xn:attributes>
+                <xn:vsDataType>vsDataServiceArea</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataServiceArea>
+                  <es:userLabel>2131</es:userLabel>
+                  <es:sac>2131</es:sac>
+                </es:vsDataServiceArea>
+              </xn:attributes>
+            </xn:VsDataContainer>
+          </xn:VsDataContainer>
+        </xn:VsDataContainer>
+      </xn:VsDataContainer>
+      <xn:VsDataContainer id="2">
+        <xn:attributes>
+          <xn:vsDataType>vsDataExternalEUtranPlmn</xn:vsDataType>
+          <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+          <es:vsDataExternalEUtranPlmn>
+            <es:plmnIdentity>
+              <es:mcc>286</es:mcc>
+              <es:mnc>2</es:mnc>
+              <es:mncLength>2</es:mncLength>
+            </es:plmnIdentity>
+            <es:userLabel></es:userLabel>
+          </es:vsDataExternalEUtranPlmn>
+        </xn:attributes>
+        <xn:VsDataContainer id="10">
+          <xn:attributes>
+            <xn:vsDataType>vsDataExternalENodeBFunction</xn:vsDataType>
+            <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+            <es:vsDataExternalENodeBFunction>
+              <es:mfbiSupport>false</es:mfbiSupport>
+              <es:eNodeBPlmnId>
+                <es:mcc>286</es:mcc>
+                <es:mnc>2</es:mnc>
+                <es:mncLength>2</es:mncLength>
+              </es:eNodeBPlmnId>
+              <es:eNBId>43632</es:eNBId>
+              <es:userLabel></es:userLabel>
+            </es:vsDataExternalENodeBFunction>
+          </xn:attributes>
+          <xn:VsDataContainer id="2862-43632-11">
+            <xn:attributes>
+              <xn:vsDataType>vsDataExternalEUtranCellFDD</xn:vsDataType>
+              <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+              <es:vsDataExternalEUtranCellFDD>
+                <es:localCellId>11</es:localCellId>
+                <es:physicalLayerCellIdGroup>138</es:physicalLayerCellIdGroup>
+                <es:physicalLayerSubCellId>0</es:physicalLayerSubCellId>
+                <es:userLabel></es:userLabel>
+                <es:tac>47601</es:tac>
+                <es:activePlmnList>
+                  <es:mcc>286</es:mcc>
+                  <es:mnc>2</es:mnc>
+                  <es:mncLength>2</es:mncLength>
+                </es:activePlmnList>
+                <es:pciConflict>1</es:pciConflict>
+                <es:pciConflictCell></es:pciConflictCell>
+                <es:pciDetectingCell></es:pciDetectingCell>
+                <es:earfcndl>6300</es:earfcndl>
+                <es:lbEUtranCellOffloadCapacity>1000</es:lbEUtranCellOffloadCapacity>
+              </es:vsDataExternalEUtranCellFDD>
+            </xn:attributes>
+          </xn:VsDataContainer>
+          <xn:VsDataContainer id="2862-43632-12">
+            <xn:attributes>
+              <xn:vsDataType>vsDataExternalEUtranCellFDD</xn:vsDataType>
+              <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+              <es:vsDataExternalEUtranCellFDD>
+                <es:localCellId>12</es:localCellId>
+                <es:physicalLayerCellIdGroup>17</es:physicalLayerCellIdGroup>
+                <es:physicalLayerSubCellId>1</es:physicalLayerSubCellId>
+                <es:userLabel></es:userLabel>
+                <es:tac>47601</es:tac>
+                <es:activePlmnList>
+                  <es:mcc>286</es:mcc>
+                  <es:mnc>2</es:mnc>
+                  <es:mncLength>2</es:mncLength>
+                </es:activePlmnList>
+                <es:pciConflict>1</es:pciConflict>
+                <es:pciConflictCell></es:pciConflictCell>
+                <es:pciDetectingCell></es:pciDetectingCell>
+                <es:earfcndl>6300</es:earfcndl>
+                <es:lbEUtranCellOffloadCapacity>1000</es:lbEUtranCellOffloadCapacity>
+              </es:vsDataExternalEUtranCellFDD>
+            </xn:attributes>
+          </xn:VsDataContainer>
+          <xn:VsDataContainer id="2862-43632-14">
+            <xn:attributes>
+              <xn:vsDataType>vsDataExternalEUtranCellFDD</xn:vsDataType>
+              <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+              <es:vsDataExternalEUtranCellFDD>
+                <es:localCellId>14</es:localCellId>
+                <es:physicalLayerCellIdGroup>138</es:physicalLayerCellIdGroup>
+                <es:physicalLayerSubCellId>2</es:physicalLayerSubCellId>
+                <es:userLabel></es:userLabel>
+                <es:tac>47601</es:tac>
+                <es:activePlmnList>
+                  <es:mcc>286</es:mcc>
+                  <es:mnc>2</es:mnc>
+                  <es:mncLength>2</es:mncLength>
+                </es:activePlmnList>
+                <es:pciConflict></es:pciConflict>
+                <es:pciConflictCell></es:pciConflictCell>
+                <es:pciDetectingCell></es:pciDetectingCell>
+                <es:earfcndl>6300</es:earfcndl>
+                <es:lbEUtranCellOffloadCapacity>1000</es:lbEUtranCellOffloadCapacity>
+              </es:vsDataExternalEUtranCellFDD>
+            </xn:attributes>
+          </xn:VsDataContainer>
+        </xn:VsDataContainer>
+      </xn:VsDataContainer>
+      <gn:ExternalGsmCell id="001ARG1">
+        <gn:attributes>
+          <gn:mnc>10</gn:mnc>
+          <gn:mcc>283</gn:mcc>
+          <gn:lac>60101</gn:lac>
+          <gn:bcchFrequency>977</gn:bcchFrequency>
+          <gn:ncc>2</gn:ncc>
+          <gn:bcc>4</gn:bcc>
+          <gn:userLabel>001ARG1</gn:userLabel>
+          <gn:cellIdentity>5011</gn:cellIdentity>
+        </gn:attributes>
+        <xn:VsDataContainer id="001ARG1">
+          <xn:attributes>
+            <xn:vsDataType>vsDataExternalGsmCell</xn:vsDataType>
+            <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+            <es:vsDataExternalGsmCell>
+              <es:dtmSupport>0</es:dtmSupport>
+              <es:maxTxPowerUl>33</es:maxTxPowerUl>
+              <es:qRxLevMin>-101</es:qRxLevMin>
+              <es:individualOffset>0</es:individualOffset>
+              <es:bandIndicator>2</es:bandIndicator>
+              <es:parentSystem>SubNetwork=ONRM_ROOT_MO_R,vsDataExternalGsmPlmn=283_10_2</es:parentSystem>
+              <es:mncLength>2</es:mncLength>
+              <es:rac>130</es:rac>
+              <es:rimCapable>0</es:rimCapable>
+            </es:vsDataExternalGsmCell>
+          </xn:attributes>
+        </xn:VsDataContainer>
+      </gn:ExternalGsmCell>
+      <xn:VsDataContainer id="283_10_2">
+        <xn:attributes>
+          <xn:vsDataType>vsDataExternalGsmPlmn</xn:vsDataType>
+          <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+          <es:vsDataExternalGsmPlmn>
+            <es:userLabel>ExternalGsmNetwork_283_10_2</es:userLabel>
+            <es:mcc>283</es:mcc>
+            <es:mnc>10</es:mnc>
+            <es:mncLength>2</es:mncLength>
+            <es:aliasPlmnIdentities></es:aliasPlmnIdentities>
+          </es:vsDataExternalGsmPlmn>
+        </xn:attributes>
+      </xn:VsDataContainer>
+      <un:ExternalUtranCell id="00-0-0">
+        <un:attributes>
+          <un:rac></un:rac>
+          <un:lac></un:lac>
+          <un:primaryCpichPower>300</un:primaryCpichPower>
+          <un:primaryScramblingCode>31</un:primaryScramblingCode>
+          <un:uarfcnDl>2958</un:uarfcnDl>
+          <un:uarfcnUl></un:uarfcnUl>
+          <un:mnc>0</un:mnc>
+          <un:mcc>0</un:mcc>
+          <un:rncId>0</un:rncId>
+          <un:cId>0</un:cId>
+          <un:userLabel></un:userLabel>
+        </un:attributes>
+        <xn:VsDataContainer id="00-0-0">
+          <xn:attributes>
+            <xn:vsDataType>vsDataExternalUtranCell</xn:vsDataType>
+            <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+            <es:vsDataExternalUtranCell>
+              <es:individualOffset>0</es:individualOffset>
+              <es:maxTxPowerUl>100</es:maxTxPowerUl>
+              <es:qQualMin>100</es:qQualMin>
+              <es:qRxLevMin>100</es:qRxLevMin>
+              <es:agpsEnabled>1</es:agpsEnabled>
+              <es:cellCapability>
+                <es:hsdschSupport>0</es:hsdschSupport>
+                <es:edchSupport>0</es:edchSupport>
+                <es:edchTti2Support>0</es:edchTti2Support>
+                <es:enhancedL2Support>0</es:enhancedL2Support>
+                <es:fdpchSupport>0</es:fdpchSupport>
+                <es:multiCarrierSupport>0</es:multiCarrierSupport>
+                <es:cpcSupport>0</es:cpcSupport>
+                <es:qam64MimoSupport>0</es:qam64MimoSupport>
+              </es:cellCapability>
+              <es:transmissionScheme>0</es:transmissionScheme>
+              <es:parentSystem>SubNetwork=ONRM_ROOT_MO_R,vsDataExternalUtranPlmn=139</es:parentSystem>
+              <es:mncLength>3</es:mncLength>
+              <es:hsAqmCongCtrlSpiSupport>1</es:hsAqmCongCtrlSpiSupport>
+              <es:hsAqmCongCtrlSpiSupport>2</es:hsAqmCongCtrlSpiSupport>
+              <es:hsAqmCongCtrlSpiSupport>3</es:hsAqmCongCtrlSpiSupport>
+              <es:hsAqmCongCtrlSpiSupport>4</es:hsAqmCongCtrlSpiSupport>
+              <es:hsAqmCongCtrlSpiSupport>7</es:hsAqmCongCtrlSpiSupport>
+              <es:hsAqmCongCtrlSupport>0</es:hsAqmCongCtrlSupport>
+              <es:srvccCapability>2</es:srvccCapability>
+              <es:reportingRange1a>0</es:reportingRange1a>
+              <es:reportingRange1b>0</es:reportingRange1b>
+              <es:timeToTrigger1a>-1</es:timeToTrigger1a>
+              <es:timeToTrigger1b>-1</es:timeToTrigger1b>
+              <es:rimCapable>0</es:rimCapable>
+              <es:lbUtranCellOffloadCapacity>1000</es:lbUtranCellOffloadCapacity>
+            </es:vsDataExternalUtranCell>
+          </xn:attributes>
+        </xn:VsDataContainer>
+      </un:ExternalUtranCell>
+      <xn:VsDataContainer id="100">
+        <xn:attributes>
+          <xn:vsDataType>vsDataExternalUtranPlmn</xn:vsDataType>
+          <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+          <es:vsDataExternalUtranPlmn>
+            <es:userLabel></es:userLabel>
+            <es:mcc>283</es:mcc>
+            <es:mnc>10</es:mnc>
+            <es:mncLength>2</es:mncLength>
+            <es:aliasPlmnIdentities></es:aliasPlmnIdentities>
+          </es:vsDataExternalUtranPlmn>
+        </xn:attributes>
+      </xn:VsDataContainer>
+      <xn:VsDataContainer id="1">
+        <xn:attributes>
+          <xn:vsDataType>vsDataFreqManagement</xn:vsDataType>
+          <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+          <es:vsDataFreqManagement/>
+        </xn:attributes>
+        <xn:VsDataContainer id="1650">
+          <xn:attributes>
+            <xn:vsDataType>vsDataEUtranFrequency</xn:vsDataType>
+            <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+            <es:vsDataEUtranFrequency>
+              <es:arfcnValueEUtranDl>1650</es:arfcnValueEUtranDl>
+              <es:userLabel></es:userLabel>
+              <es:excludeAdditionalFreqBandList></es:excludeAdditionalFreqBandList>
+            </es:vsDataEUtranFrequency>
+          </xn:attributes>
+        </xn:VsDataContainer>
+        <xn:VsDataContainer id="1650">
+          <xn:attributes>
+            <xn:vsDataType>vsDataExternalEutranFrequency</xn:vsDataType>
+            <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+            <es:vsDataExternalEutranFrequency>
+              <es:userLabel>L1800</es:userLabel>
+              <es:earfcnDl>1650</es:earfcnDl>
+              <es:plmnIdentity>
+                <es:mcc>283</es:mcc>
+                <es:mnc>10</es:mnc>
+                <es:mncLength>2</es:mncLength>
+              </es:plmnIdentity>
+            </es:vsDataExternalEutranFrequency>
+          </xn:attributes>
+        </xn:VsDataContainer>
+        <xn:VsDataContainer id="2985">
+          <xn:attributes>
+            <xn:vsDataType>vsDataExternalUtranFreq</xn:vsDataType>
+            <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+            <es:vsDataExternalUtranFreq>
+              <es:userLabel></es:userLabel>
+              <es:arfcnValueUtranDl>2985</es:arfcnValueUtranDl>
+            </es:vsDataExternalUtranFreq>
+          </xn:attributes>
+        </xn:VsDataContainer>
+      </xn:VsDataContainer>
+      <xn:ManagementNode id="ONRM">
+        <xn:attributes>
+          <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=CORE,MeContext=EPG,ManagedElement=1</xn:manages>
+          <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=CORE,MeContext=mme01,ManagedElement=mme01</xn:manages>
+          <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=LTE,MeContext=YE097_4G,ManagedElement=YE097_4G</xn:manages>
+        </xn:attributes>
+      </xn:ManagementNode>
+      
+      
+      
+    </xn:SubNetwork>
+  </configData>
+</bulkCmConfigDataFile>
