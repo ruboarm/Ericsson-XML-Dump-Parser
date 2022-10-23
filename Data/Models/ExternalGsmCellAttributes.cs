@@ -3,7 +3,7 @@
 namespace Data.Models
 {
     [XmlRoot(ElementName = "attributes", Namespace = "geranNrm.xsd")]
-    class ExternalGsmCellAttributes
+    public class ExternalGsmCellAttributes
     {
         [XmlElement(ElementName = "mnc", Namespace = "geranNrm.xsd")]
         public int Mnc { get; set; }
