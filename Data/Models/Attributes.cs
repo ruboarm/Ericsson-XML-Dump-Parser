@@ -64,5 +64,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataMeContext", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataMeContext? vsDataMeContext { get; set; }
+
+        [XmlElement(ElementName = "vsDataManagedElement", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataManagedElement vsDataManagedElement { get; set; }
     }
 }
