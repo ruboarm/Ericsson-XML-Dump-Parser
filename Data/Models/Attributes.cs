@@ -58,5 +58,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataExternalUtranFreq")]
         public VsDataExternalUtranFreq? VsDataExternalUtranFreq { get; set; }
+
+        [XmlElement(ElementName = "vsDataSite", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public VsDataSite? VsDataSite { get; set; }
     }
 }

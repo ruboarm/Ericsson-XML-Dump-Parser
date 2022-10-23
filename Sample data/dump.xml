@@ -157,7 +157,7 @@
           </xn:VsDataContainer>
         </xn:VsDataContainer>
       </xn:VsDataContainer>
-      <gn:ExternalGsmCell id="001ARG1">
+      <gn:ExternalGsmCell id="TEST01G1">
         <gn:attributes>
           <gn:mnc>10</gn:mnc>
           <gn:mcc>283</gn:mcc>
@@ -165,10 +165,10 @@
           <gn:bcchFrequency>977</gn:bcchFrequency>
           <gn:ncc>2</gn:ncc>
           <gn:bcc>4</gn:bcc>
-          <gn:userLabel>001ARG1</gn:userLabel>
+          <gn:userLabel>TEST01G1</gn:userLabel>
           <gn:cellIdentity>5011</gn:cellIdentity>
         </gn:attributes>
-        <xn:VsDataContainer id="001ARG1">
+        <xn:VsDataContainer id="TEST01G1">
           <xn:attributes>
             <xn:vsDataType>vsDataExternalGsmCell</xn:vsDataType>
             <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
@@ -313,7 +313,7 @@
         <xn:attributes>
           <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=CORE,MeContext=EPG,ManagedElement=1</xn:manages>
           <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=CORE,MeContext=mme01,ManagedElement=mme01</xn:manages>
-          <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=LTE,MeContext=YE097_4G,ManagedElement=YE097_4G</xn:manages>
+          <xn:manages>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=LTE,MeContext=TEST01_4G,ManagedElement=TEST01_4G</xn:manages>
           <xn:userDefinedState>Active</xn:userDefinedState>
           <xn:locationName>""</xn:locationName>
           <xn:userLabel>ONRM</xn:userLabel>
@@ -336,7 +336,27 @@
           </xn:NotificationIRP>
         </xn:IRPAgent>
       </xn:ManagementNode>
-      </xn:ManagementNode>
+      <xn:VsDataContainer id="AG601_Vahagni-2">
+        <xn:attributes>
+          <xn:vsDataType>vsDataSite</xn:vsDataType>
+          <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+          <es:vsDataSite>
+            <es:userLabel>AG601_Vahagni-2</es:userLabel>
+            <es:location>Yerevan</es:location>
+            <es:latitude>0</es:latitude>
+            <es:longitude>0</es:longitude>
+            <es:altitude>0</es:altitude>
+            <es:timeZone>UTC+04:00</es:timeZone>
+            <es:freeText></es:freeText>
+            <es:listOfNe>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=LTE,MeContext=TEST01_4G,ManagedElement=AG601_4G</es:listOfNe>
+            <es:listOfNe>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC10,MeContext=TEST01_3G,ManagedElement=AG601_3G</es:listOfNe>
+            <es:datum>wgs84</es:datum>
+            <es:worldTimeZoneId>Asia/Yerevan</es:worldTimeZoneId>
+            <es:daylightSavingsAdjust>0</es:daylightSavingsAdjust>
+          </es:vsDataSite>
+        </xn:attributes>
+      </xn:VsDataContainer>
+      
       
       
       
