@@ -25,5 +25,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "MeContext", Namespace = "genericNrm.xsd")]
         public MeContext? MeContext { get; set; }
+
+        [XmlElement(ElementName = "ManagedElement", Namespace = "genericNrm.xsd")]
+        public ManagedElement? ManagedElement { get; set; }
     }
 }
