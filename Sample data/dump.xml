@@ -356,7 +356,79 @@
           </es:vsDataSite>
         </xn:attributes>
       </xn:VsDataContainer>
-      
+      <xn:SubNetwork id="CORE">
+        <xn:attributes>
+          <xn:userDefinedNetworkType>Packet Core</xn:userDefinedNetworkType>
+          <xn:userLabel>CORE</xn:userLabel>
+        </xn:attributes>
+        <xn:MeContext id="mme01">
+          <xn:attributes>
+            <xn:dnPrefix></xn:dnPrefix>
+            <xn:userLabel>mme01</xn:userLabel>
+            <xn:ipAddress>10.31.3.41</xn:ipAddress>
+            <xn:segmentName>SubNetwork=ONRM_ROOT_MO_R,Segment=Seg_masterservice</xn:segmentName>
+            <xn:mimSwitchPolicy>1</xn:mimSwitchPolicy>
+            <xn:neMIMversion>1.2.0.1.39</xn:neMIMversion>
+            <xn:compatibilityOfMIMs>false</xn:compatibilityOfMIMs>
+            <xn:connectionStatus>2</xn:connectionStatus>
+            <xn:mirrorMIBsynchStatus>3</xn:mirrorMIBsynchStatus>
+            <xn:mirrorMIBupdateStatus>2</xn:mirrorMIBupdateStatus>
+            <xn:generationCounter>-1</xn:generationCounter>
+            <xn:neMIMName>ECIM_Top</xn:neMIMName>
+            <xn:neType>27</xn:neType>
+            <xn:neCreationComplete>true</xn:neCreationComplete>
+            <xn:restartWarning>false</xn:restartWarning>
+            <xn:rollbackMirrorMIBname></xn:rollbackMirrorMIBname>
+            <xn:neSecurityStatus>ON</xn:neSecurityStatus>
+            <xn:bcrLastChange>1666075649806</xn:bcrLastChange>
+            <xn:bctLastChange>1666075649806</xn:bctLastChange>
+            <xn:telisLastChange>-1</xn:telisLastChange>
+            <xn:lostSynchronisation>SYNCHRONIZED</xn:lostSynchronisation>
+            <xn:nodeStartTime></xn:nodeStartTime>
+            <xn:pendingRestart>false</xn:pendingRestart>
+          </xn:attributes>
+          <xn:VsDataContainer id="mme01">
+            <xn:attributes>
+              <xn:vsDataType>vsDataMeContext</xn:vsDataType>
+              <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+              <es:vsDataMeContext>
+                <es:notificationsSupported>true</es:notificationsSupported>
+                <es:upgradeMethodCapability>3</es:upgradeMethodCapability>
+                <es:createUpgradePackageCapability>4</es:createUpgradePackageCapability>
+                <es:lastProcessedEventTime>2022-10-17T07:48:53Z</es:lastProcessedEventTime>
+                <es:associatedRnc></es:associatedRnc>
+                <es:rbsGroupRef></es:rbsGroupRef>
+              </es:vsDataMeContext>
+            </xn:attributes>
+          </xn:VsDataContainer>
+          <xn:ManagedElement id="mme01">
+            <xn:attributes>
+              <xn:locationName></xn:locationName>
+              <xn:userDefinedState></xn:userDefinedState>
+              <xn:vendorName></xn:vendorName>
+              <xn:userLabel>mme01</xn:userLabel>
+              <xn:managedElementType>SGSN_MME</xn:managedElementType>
+              <xn:swVersion>CXS101289_R85D01</xn:swVersion>
+              <xn:managedBy>SubNetwork=ONRM_ROOT_MO_R,ManagementNode=ONRM</xn:managedBy>
+              <xn:dnPrefix>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=CORE,MeContext=mme01</xn:dnPrefix>
+              <xn:sourceType>WPP</xn:sourceType>
+              <xn:release>001-00-24</xn:release>
+              <xn:siteRef>SubNetwork=ONRM_ROOT_MO_R,Site=Yerevan</xn:siteRef>
+            </xn:attributes>
+            <xn:VsDataContainer id="mme01">
+              <xn:attributes>
+                <xn:vsDataType>vsDataManagedElement</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataManagedElement>
+                  <es:mirrorRelease>1.5</es:mirrorRelease>
+                  <es:siteLocation></es:siteLocation>
+                  <es:timeZone>Asia/Yerevan</es:timeZone>
+                </es:vsDataManagedElement>
+              </xn:attributes>
+            </xn:VsDataContainer>
+          </xn:ManagedElement>
+        </xn:MeContext>
+      </xn:SubNetwork>
       
       
       
