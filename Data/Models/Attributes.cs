@@ -109,5 +109,15 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataPcmService", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataPcmService? vsDataPcmService { get; set; }
+
+        [XmlElement(ElementName = "vsDataSwManagement", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSwManagement? vsDataSwManagement { get; set; }
+
+        [XmlElement(ElementName = "vsDataConfigurationVersion", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataConfigurationVersion? vsDataConfigurationVersion { get; set; }
+
+        [XmlElement(ElementName = "vsDataSwAllocation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSwAllocation? vsDataSwAllocation { get; set; }
+        
     }
 }
