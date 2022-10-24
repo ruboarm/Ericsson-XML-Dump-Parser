@@ -638,6 +638,61 @@
                 </xn:attributes>
               </xn:VsDataContainer>
             </xn:VsDataContainer>
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataMrfpFunction</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataMrfpFunction>
+                  <es:dscpAudio>46</es:dscpAudio>
+                  <es:dscpMultimedia>32</es:dscpMultimedia>
+                  <es:rtcpBearerSupervisionTimerMb>0</es:rtcpBearerSupervisionTimerMb>
+                  <es:userLabel></es:userLabel>
+                  <es:licenseCapacityAudioConferencing>200</es:licenseCapacityAudioConferencing>
+                  <es:licenseCapacityHdVideoConferencing>200</es:licenseCapacityHdVideoConferencing>
+                  <es:licenseCapacityMrfp>200</es:licenseCapacityMrfp>
+                  <es:licenseStateHdAudio>1</es:licenseStateHdAudio>
+                  <es:licenseCapacityVideo>200</es:licenseCapacityVideo>
+                  <es:licenseCapacityVideoConferencing>200</es:licenseCapacityVideoConferencing>
+                  <es:featureStateContentSharing>0</es:featureStateContentSharing>
+                  <es:licenseStateContentSharing>1</es:licenseStateContentSharing>
+                  <es:licenseStateMrfIpv6>1</es:licenseStateMrfIpv6>
+                  <es:licenseStateMrfPriorityCall>1</es:licenseStateMrfPriorityCall>
+                  <es:licenseStateMrfEvs>0</es:licenseStateMrfEvs>
+                </es:vsDataMrfpFunction>
+              </xn:attributes>
+              <xn:VsDataContainer id="1">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataBfcp</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataBfcp>
+                    <es:tcpPort>3006</es:tcpPort>
+                    <es:dscp>40</es:dscp>
+                  </es:vsDataBfcp>
+                </xn:attributes>
+                <xn:VsDataContainer id="MAIN-07">
+                  <xn:attributes>
+                    <xn:vsDataType>vsDataBfcpApplication</xn:vsDataType>
+                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                    <es:vsDataBfcpApplication>
+                      <es:ipAccessHostGpbMoRef></es:ipAccessHostGpbMoRef>
+                      <es:rpuMoRef>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwManagement=1,vsDataReliableProgramUniter=mrfp_floor_handler-actMAIN-07-pasMAIN-24</es:rpuMoRef>
+                      <es:userLabel>BfcpApplication MAIN-07</es:userLabel>
+                    </es:vsDataBfcpApplication>
+                  </xn:attributes>
+                </xn:VsDataContainer>
+                <xn:VsDataContainer id="MAIN-22">
+                  <xn:attributes>
+                    <xn:vsDataType>vsDataBfcpApplication</xn:vsDataType>
+                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                    <es:vsDataBfcpApplication>
+                      <es:ipAccessHostGpbMoRef></es:ipAccessHostGpbMoRef>
+                      <es:rpuMoRef>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwManagement=1,vsDataReliableProgramUniter=mrfp_floor_handler-actMAIN-22-pasMAIN-24</es:rpuMoRef>
+                      <es:userLabel>BfcpApplication MAIN-22</es:userLabel>
+                    </es:vsDataBfcpApplication>
+                  </xn:attributes>
+                </xn:VsDataContainer>
+              </xn:VsDataContainer>
+            </xn:VsDataContainer>
             
             
           </xn:ManagedElement>
