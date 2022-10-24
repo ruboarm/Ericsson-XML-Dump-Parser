@@ -100,5 +100,14 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataBfcpApplication", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public List<vsDataBfcpApplication>? vsDataBfcpApplications { get; set; }
+
+        [XmlElement(ElementName = "vsDataMsProcessing", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataMsProcessing? vsDataMsProcessing { get; set; }
+
+        [XmlElement(ElementName = "vsDataEvsService", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public object? vsDataEvsService { get; set; } // Unknown type
+
+        [XmlElement(ElementName = "vsDataPcmService", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataPcmService? vsDataPcmService { get; set; }
     }
 }
