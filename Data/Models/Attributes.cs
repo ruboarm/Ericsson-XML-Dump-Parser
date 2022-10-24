@@ -79,5 +79,18 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataPlugInUnit", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataPlugInUnit? vsDataPlugInUnit { get; set; }
+
+        [XmlElement(ElementName = "vsDataEthernetSwitchModule", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataEthernetSwitchModule? vsDataEthernetSwitchModule { get; set; }
+
+        [XmlElement(ElementName = "vsDataInteractiveMessaging", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public object? vsDataInteractiveMessaging { get; set; } // Unknown type
+
+        [XmlElement(ElementName = "vsDataIpSystem", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataIpSystem? vsDataIpSystem { get; set; }
+
+        [XmlElement(ElementName = "vsDataDnsClient", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataDnsClient? vsDataDnsClient { get; set; }
+
     }
 }
