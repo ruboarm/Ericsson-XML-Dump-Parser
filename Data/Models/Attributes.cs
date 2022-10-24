@@ -118,6 +118,12 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataSwAllocation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataSwAllocation? vsDataSwAllocation { get; set; }
+
+        [XmlElement(ElementName = "vsDataSystemFunctions", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSystemFunctions? vsDataSystemFunctions { get; set; }
+
+        [XmlElement(ElementName = "vsDataLicensing", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataLicensing? vsDataLicensing { get; set; }
         
     }
 }

@@ -767,8 +767,59 @@
                 </xn:attributes>
               </xn:VsDataContainer>
             </xn:VsDataContainer>
-
-
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataSystemFunctions</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataSystemFunctions>
+                  <es:userLabel></es:userLabel>
+                </es:vsDataSystemFunctions>
+              </xn:attributes>
+              <xn:VsDataContainer id="1">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataLicensing</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataLicensing>
+                    <es:userLabel></es:userLabel>
+                    <es:lastLicensingPiChange>200708-083943</es:lastLicensingPiChange>
+                    <es:emergencyStateInfo>
+                      <es:state>0</es:state>
+                      <es:time>0</es:time>
+                      <es:expiryTime></es:expiryTime>
+                    </es:emergencyStateInfo>
+                    <es:fingerprint>X912443568</es:fingerprint>
+                  </es:vsDataLicensing>
+                </xn:attributes>
+              </xn:VsDataContainer>
+              <xn:VsDataContainer id="1">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataSecurity</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataSecurity>
+                    <es:authorizationCacheTimeOut>30</es:authorizationCacheTimeOut>
+                    <es:certExpirWarnTime>90</es:certExpirWarnTime>
+                    <es:autoUpdateCertEnrollmentServer></es:autoUpdateCertEnrollmentServer>
+                    <es:crlEarlyUpdateInterval>60</es:crlEarlyUpdateInterval>
+                    <es:certRevStatusCheck>0</es:certRevStatusCheck>
+                  </es:vsDataSecurity>
+                </xn:attributes>
+                <xn:VsDataContainer id="1">
+                  <xn:attributes>
+                    <xn:vsDataType>vsDataRealTimeSecLog</xn:vsDataType>
+                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                    <es:vsDataRealTimeSecLog>
+                      <es:connAttemptTimeOut>10</es:connAttemptTimeOut>
+                      <es:extServerAppName>Ericsson</es:extServerAppName>
+                      <es:extServerListConfig></es:extServerListConfig>
+                      <es:extServerLogLevel>7</es:extServerLogLevel>
+                      <es:featureState>0</es:featureState>
+                      <es:licenseState>1</es:licenseState>
+                      <es:userLabel></es:userLabel>
+                    </es:vsDataRealTimeSecLog>
+                  </xn:attributes>
+                </xn:VsDataContainer>
+              </xn:VsDataContainer>
+            </xn:VsDataContainer>
           </xn:ManagedElement>
         </xn:MeContext>
       </xn:SubNetwork>
