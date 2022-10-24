@@ -92,5 +92,13 @@ namespace Data.Models
         [XmlElement(ElementName = "vsDataDnsClient", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataDnsClient? vsDataDnsClient { get; set; }
 
+        [XmlElement(ElementName = "vsDataMrfpFunction", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataMrfpFunction? vsDataMrfpFunction { get; set; }
+
+        [XmlElement(ElementName = "vsDataBfcp", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataBfcp? vsDataBfcp { get; set; }
+
+        [XmlElement(ElementName = "vsDataBfcpApplication", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public List<vsDataBfcpApplication>? vsDataBfcpApplications { get; set; }
     }
 }
