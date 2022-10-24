@@ -722,14 +722,59 @@
                 </xn:attributes>
               </xn:VsDataContainer>
             </xn:VsDataContainer>
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataSwManagement</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataSwManagement>
+                  <es:userLabel></es:userLabel>
+                  <es:lastUpPiChange>200708-084032</es:lastUpPiChange>
+                </es:vsDataSwManagement>
+              </xn:attributes>
+              <xn:VsDataContainer id="1">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataConfigurationVersion</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataConfigurationVersion>
+                    <es:currentUpgradePackage>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwManagement=1,vsDataUpgradePackage=CXP9018138_R382A05</es:currentUpgradePackage>
+                    <es:configAdmCountdown>900</es:configAdmCountdown>
+                    <es:autoCreatedCVIsTurnedOn>true</es:autoCreatedCVIsTurnedOn>
+                    <es:rollbackInitCounterValue>5</es:rollbackInitCounterValue>
+                    <es:rollbackInitTimerValue>30</es:rollbackInitTimerValue>
+                    <es:rollbackOn>true</es:rollbackOn>
+                    <es:timeForAutoCreatedCV>05:00</es:timeForAutoCreatedCV>
+                  </es:vsDataConfigurationVersion>
+                </xn:attributes>
+              </xn:VsDataContainer>
+              <xn:VsDataContainer id="CAR_MP_Mandatory">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataSwAllocation</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataSwAllocation>
+                    <es:role>CAR_MP_Mandatory</es:role>
+                    <es:userLabel></es:userLabel>
+                  </es:vsDataSwAllocation>
+                </xn:attributes>
+              </xn:VsDataContainer>
+              <xn:VsDataContainer id="COMMON_STANDBY">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataSwAllocation</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataSwAllocation>
+                    <es:role>COMMON_STANDBY</es:role>
+                    <es:userLabel></es:userLabel>
+                  </es:vsDataSwAllocation>
+                </xn:attributes>
+              </xn:VsDataContainer>
+            </xn:VsDataContainer>
 
 
           </xn:ManagedElement>
         </xn:MeContext>
       </xn:SubNetwork>
-      
-      
-      
+
+
+
     </xn:SubNetwork>
   </configData>
 </bulkCmConfigDataFile>
