@@ -567,8 +567,79 @@
                     </xn:attributes>
                   </xn:VsDataContainer>
                 </xn:VsDataContainer>
+                <xn:VsDataContainer id="1">
+                  <xn:attributes>
+                    <xn:vsDataType>vsDataEthernetSwitchModule</xn:vsDataType>
+                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                    <es:vsDataEthernetSwitchModule>
+                      <es:userLabel></es:userLabel>
+                      <es:macAddress>04:4E:06:FE:8F:F7</es:macAddress>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>0</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>1</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>1</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>1</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>1</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>1</es:backPlanePortState>
+                      <es:backPlanePortState>1</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>0</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>0</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>0</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>0</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>0</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:backPlanePortState>2</es:backPlanePortState>
+                      <es:linkAggLinkSelection>5</es:linkAggLinkSelection>
+                    </es:vsDataEthernetSwitchModule>
+                  </xn:attributes>
+                </xn:VsDataContainer>
               </xn:VsDataContainer>
             </xn:VsDataContainer>
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataInteractiveMessaging</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataInteractiveMessaging/>
+              </xn:attributes>
+            </xn:VsDataContainer>
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataIpSystem</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataIpSystem>
+                  <es:userLabel></es:userLabel>
+                </es:vsDataIpSystem>
+              </xn:attributes>
+              <xn:VsDataContainer id="1_dnsclient">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataDnsClient</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataDnsClient>
+                    <es:defDomainName>ims.ucom.am</es:defDomainName>
+                    <es:userLabel>dns</es:userLabel>
+                    <es:dscp>40</es:dscp>
+                    <es:dnsServerAddress>10.8.2.40</es:dnsServerAddress>
+                    <es:dnsServerAddress>10.8.2.41</es:dnsServerAddress>
+                    <es:dnsServerAddress></es:dnsServerAddress>
+                  </es:vsDataDnsClient>
+                </xn:attributes>
+              </xn:VsDataContainer>
+            </xn:VsDataContainer>
+            
+            
           </xn:ManagedElement>
         </xn:MeContext>
       </xn:SubNetwork>
