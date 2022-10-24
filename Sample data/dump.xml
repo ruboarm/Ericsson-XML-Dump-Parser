@@ -693,8 +693,37 @@
                 </xn:VsDataContainer>
               </xn:VsDataContainer>
             </xn:VsDataContainer>
-            
-            
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataMsProcessing</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataMsProcessing>
+                  <es:codingLaw>0</es:codingLaw>
+                  <es:powerSaveModeEnabled>false</es:powerSaveModeEnabled>
+                </es:vsDataMsProcessing>
+              </xn:attributes>
+              <xn:VsDataContainer id="1">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataEvsService</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataEvsService/>
+                </xn:attributes>
+              </xn:VsDataContainer>
+              <xn:VsDataContainer id="1">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataPcmService</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataPcmService>
+                    <es:g711PacketLossConcealmentExt>0</es:g711PacketLossConcealmentExt>
+                    <es:g711PacketLossConcealmentMb>0</es:g711PacketLossConcealmentMb>
+                    <es:g711PacketLossConcealmentNb>0</es:g711PacketLossConcealmentNb>
+                    <es:g711PacketLossConcealmentUnid>0</es:g711PacketLossConcealmentUnid>
+                  </es:vsDataPcmService>
+                </xn:attributes>
+              </xn:VsDataContainer>
+            </xn:VsDataContainer>
+
+
           </xn:ManagedElement>
         </xn:MeContext>
       </xn:SubNetwork>
