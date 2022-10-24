@@ -429,6 +429,149 @@
           </xn:ManagedElement>
         </xn:MeContext>
       </xn:SubNetwork>
+      <xn:SubNetwork id="IMS">
+        <xn:attributes>
+          <xn:userDefinedNetworkType>IMS</xn:userDefinedNetworkType>
+          <xn:userLabel>IMS</xn:userLabel>
+        </xn:attributes>
+        <xn:MeContext id="MRS">
+          <xn:VsDataContainer id="MRS">
+            <xn:attributes>
+              <xn:vsDataType>vsDataMeContext</xn:vsDataType>
+              <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+              <es:vsDataMeContext>
+                <es:userLabel>MRS</es:userLabel>
+                <es:ipAddress>10.16.66.228</es:ipAddress>
+                <es:neMIMversion>vC.1.313</es:neMIMversion>
+                <es:lostSynchronisation>SYNCHRONISED</es:lostSynchronisation>
+                <es:neType>7</es:neType>
+                <es:bcrLastChange>1666044008128</es:bcrLastChange>
+                <es:bctLastChange>1665981162302</es:bctLastChange>
+                <es:neLinkRelations></es:neLinkRelations>
+                <es:mirrorMIBversion>C.1.267.V.1.2</es:mirrorMIBversion>
+              </es:vsDataMeContext>
+            </xn:attributes>
+          </xn:VsDataContainer>
+          <xn:ManagedElement id="1">
+            <xn:attributes>
+              <xn:locationName></xn:locationName>
+              <xn:userDefinedState></xn:userDefinedState>
+              <xn:vendorName>Ericsson</xn:vendorName>
+              <xn:userLabel>MRS</xn:userLabel>
+              <xn:managedElementType>MGW</xn:managedElementType>
+              <xn:swVersion>CXP9018138/7_R382A05</xn:swVersion>
+              <xn:managedBy>SubNetwork=ONRM_ROOT_MO_R,ManagementNode=ONRM</xn:managedBy>
+            </xn:attributes>
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataManagedElement</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataManagedElement>
+                  <es:siteRef>SubNetwork=ONRM_ROOT_MO_R,Site=Yerevan</es:siteRef>
+                  <es:logicalName></es:logicalName>
+                  <es:productType>Node</es:productType>
+                  <es:productName>AXM10101/11</es:productName>
+                  <es:productNumber>MRS_ECP_6.9.2.1</es:productNumber>
+                  <es:productRevision>R50C</es:productRevision>
+                  <es:dnPrefix>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS</es:dnPrefix>
+                  <es:sourceType>Cello</es:sourceType>
+                  <es:release>17A</es:release>
+                  <es:healthCheckResult>
+                    <es:message></es:message>
+                    <es:startTime>2022-10-17 04:30</es:startTime>
+                    <es:healthCheckResultCode>0</es:healthCheckResultCode>
+                  </es:healthCheckResult>
+                  <es:applicationConfiguration></es:applicationConfiguration>
+                  <es:site></es:site>
+                </es:vsDataManagedElement>
+              </xn:attributes>
+            </xn:VsDataContainer>
+            <xn:VsDataContainer id="1">
+              <xn:attributes>
+                <xn:vsDataType>vsDataEquipment</xn:vsDataType>
+                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                <es:vsDataEquipment>
+                  <es:userLabel></es:userLabel>
+                  <es:lastHwPiChange>200708-084442</es:lastHwPiChange>
+                </es:vsDataEquipment>
+              </xn:attributes>
+              <xn:VsDataContainer id="MAIN">
+                <xn:attributes>
+                  <xn:vsDataType>vsDataSubrack</xn:vsDataType>
+                  <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                  <es:vsDataSubrack>
+                    <es:subrackPosition>1A</es:subrackPosition>
+                    <es:cabinetPosition></es:cabinetPosition>
+                    <es:userLabel>Subrack MAIN</es:userLabel>
+                    <es:numberOfSlots>28</es:numberOfSlots>
+                    <es:subrackType>0</es:subrackType>
+                    <es:switchModule>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwitchFabric=1,vsDataSwitchModule=MAIN</es:switchModule>
+                    <es:subrackProdTypeRef>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataEquipment=1,vsDataSubrackProdType=ROJ605117/2_R1</es:subrackProdTypeRef>
+                    <es:subrackNumber>0</es:subrackNumber>
+                    <es:operationalProductData>
+                      <es:productName>CPP HCS BP</es:productName>
+                      <es:productNumber>ROJ 605 117/2</es:productNumber>
+                      <es:productRevision>R1A</es:productRevision>
+                      <es:serialNumber>X912443568</es:serialNumber>
+                      <es:productionDate>20160510</es:productionDate>
+                    </es:operationalProductData>
+                  </es:vsDataSubrack>
+                </xn:attributes>
+                <xn:VsDataContainer id="1">
+                  <xn:attributes>
+                    <xn:vsDataType>vsDataSlot</xn:vsDataType>
+                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                    <es:vsDataSlot>
+                      <es:slotNumber>1</es:slotNumber>
+                      <es:userLabel></es:userLabel>
+                      <es:activeSwAllocation>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwManagement=1,vsDataSwAllocation=MRS_SCB_10G</es:activeSwAllocation>
+                    </es:vsDataSlot>
+                  </xn:attributes>
+                  <xn:VsDataContainer id="1">
+                    <xn:attributes>
+                      <xn:vsDataType>vsDataPlugInUnit</xn:vsDataType>
+                      <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                      <es:vsDataPlugInUnit>
+                        <es:administrativeState>1</es:administrativeState>
+                        <es:allowedSeqRestarts>-1</es:allowedSeqRestarts>
+                        <es:piuGroupNumber>0</es:piuGroupNumber>
+                        <es:piuType>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwManagement=1,vsDataPiuType=ROJ1192334/3_R1</es:piuType>
+                        <es:userLabel></es:userLabel>
+                        <es:positionRef></es:positionRef>
+                      </es:vsDataPlugInUnit>
+                    </xn:attributes>
+                  </xn:VsDataContainer>
+                </xn:VsDataContainer>
+                <xn:VsDataContainer id="10">
+                  <xn:attributes>
+                    <xn:vsDataType>vsDataSlot</xn:vsDataType>
+                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                    <es:vsDataSlot>
+                      <es:slotNumber>10</es:slotNumber>
+                      <es:userLabel></es:userLabel>
+                      <es:activeSwAllocation>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwManagement=1,vsDataSwAllocation=MSB_AMC_Carrier</es:activeSwAllocation>
+                    </es:vsDataSlot>
+                  </xn:attributes>
+                  <xn:VsDataContainer id="1">
+                    <xn:attributes>
+                      <xn:vsDataType>vsDataPlugInUnit</xn:vsDataType>
+                      <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                      <es:vsDataPlugInUnit>
+                        <es:administrativeState>1</es:administrativeState>
+                        <es:allowedSeqRestarts>3</es:allowedSeqRestarts>
+                        <es:piuGroupNumber>0</es:piuGroupNumber>
+                        <es:piuType>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=IMS,MeContext=MRS,ManagedElement=1,vsDataSwManagement=1,vsDataPiuType=ROJ1192331/1_R3</es:piuType>
+                        <es:userLabel></es:userLabel>
+                        <es:positionRef></es:positionRef>
+                      </es:vsDataPlugInUnit>
+                    </xn:attributes>
+                  </xn:VsDataContainer>
+                </xn:VsDataContainer>
+              </xn:VsDataContainer>
+            </xn:VsDataContainer>
+          </xn:ManagedElement>
+        </xn:MeContext>
+      </xn:SubNetwork>
       
       
       

@@ -12,7 +12,7 @@ namespace Data.Models
         public string VsDataFormatVersion { get; set; }
 
         [XmlElement(ElementName = "vsDataAreas", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
-        public string VsDataAreas { get; set; }
+        public string? VsDataAreas { get; set; }
 
         [XmlElement(ElementName = "vsDataPlmn")]
         public VsDataPlmn? VsDataPlmn { get; set; }
@@ -67,5 +67,17 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataManagedElement", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataManagedElement vsDataManagedElement { get; set; }
+
+        [XmlElement(ElementName = "vsDataEquipment", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataEquipment? vsDataEquipment { get; set; }
+
+        [XmlElement(ElementName = "vsDataSubrack", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSubrack? vsDataSubrack { get; set; }
+
+        [XmlElement(ElementName = "vsDataSlot", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSlot? vsDataSlot { get; set; }
+
+        [XmlElement(ElementName = "vsDataPlugInUnit", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataPlugInUnit? vsDataPlugInUnit { get; set; }
     }
 }

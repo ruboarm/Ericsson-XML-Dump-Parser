@@ -27,16 +27,15 @@ namespace Data.Models
         public string ManagedBy { get; set; }
 
         [XmlElement(ElementName = "dnPrefix", Namespace = "genericNrm.xsd")]
-        public string DnPrefix { get; set; }
+        public string? DnPrefix { get; set; }
 
         [XmlElement(ElementName = "sourceType", Namespace = "genericNrm.xsd")]
-        public string SourceType { get; set; }
+        public string? SourceType { get; set; }
 
         [XmlElement(ElementName = "release", Namespace = "genericNrm.xsd")]
-        public string Release { get; set; }
+        public string? Release { get; set; }
 
         [XmlElement(ElementName = "siteRef", Namespace = "genericNrm.xsd")]
-        public string SiteRef { get; set; }
-
+        public string? SiteRef { get; set; }
     }
 }
