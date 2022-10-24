@@ -8,6 +8,9 @@ namespace Data.Models
         [XmlAttribute(AttributeName = "id")]
         public string Id { get; set; }
 
+        [XmlElement(ElementName = "attributes", Namespace = "genericNrm.xsd")]
+        public SubNetworkAttributes? Attributes { get; set; }
+
         [XmlElement(ElementName = "VsDataContainer", Namespace = "genericNrm.xsd")]
         public List<VsDataContainer>? VsDataContainers { get; set; }
 

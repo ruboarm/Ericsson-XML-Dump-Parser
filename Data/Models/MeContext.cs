@@ -7,5 +7,11 @@ namespace Data.Models
     {
         [XmlElement(ElementName = "attributes", Namespace = "genericNrm.xsd")]
         public MeContextAttributes Attributes { get; set; }
+
+        [XmlElement(ElementName = "VsDataContainer", Namespace = "genericNrm.xsd")]
+        public List<VsDataContainer> VsDataContainers { get; set; }
+
+        [XmlElement(ElementName = "ManagedElement", Namespace = "genericNrm.xsd")]
+        public ManagedElement ManagedElement { get; set; }
     }
 }
