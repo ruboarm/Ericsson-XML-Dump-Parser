@@ -1,3 +1,7 @@
-
+Models:
 vsDataInteractiveMessaging
 vsDataEvsService
+
+Parameters:
+autoUpdateCertEnrollmentServer
+extServerListConfig

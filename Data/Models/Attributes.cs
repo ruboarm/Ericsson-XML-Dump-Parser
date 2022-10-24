@@ -124,6 +124,12 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataLicensing", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataLicensing? vsDataLicensing { get; set; }
+
+        [XmlElement(ElementName = "vsDataSecurity", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSecurity? vsDataSecurity { get; set; }
+
+        [XmlElement(ElementName = "vsDataRealTimeSecLog", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataRealTimeSecLog? vsDataRealTimeSecLog { get; set; }
         
     }
 }
