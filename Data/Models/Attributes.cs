@@ -130,6 +130,12 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataRealTimeSecLog", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataRealTimeSecLog? vsDataRealTimeSecLog { get; set; }
+
+        [XmlElement(ElementName = "vsDataENodeBFunction", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataENodeBFunction? vsDataENodeBFunction { get; set; }
+
+        [XmlElement(ElementName = "vsDataAdmissionControl", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataAdmissionControl? vsDataAdmissionControl { get; set; }
         
     }
 }
