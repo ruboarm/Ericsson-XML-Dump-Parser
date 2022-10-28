@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+
+
+
+# Exclude Unknown_Types.txt from Git
+Sample data/Unknown_Types.txt
