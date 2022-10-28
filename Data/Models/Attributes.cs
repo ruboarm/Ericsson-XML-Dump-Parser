@@ -136,6 +136,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataAdmissionControl", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataAdmissionControl? vsDataAdmissionControl { get; set; }
-        
+
+        [XmlElement(ElementName = "vsDataAnrFunction", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataAnrFunction? vsDataAnrFunction { get; set; }
     }
 }

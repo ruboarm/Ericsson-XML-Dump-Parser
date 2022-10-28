@@ -353,4 +353,4 @@ MigrationBackup/
 
 
 # Exclude Unknown_Types.txt from Git
-Sample data/Unknown_Types.txt
+Sample data/

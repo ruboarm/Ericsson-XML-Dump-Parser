@@ -20,3 +20,11 @@ SctpX2Ref
 zzzTemporary43
 rpUpIpAddressRef
 intraRanIpAddressRef
+
+*vsDataAdmissionControl
+zzzTemporary2
+ZzzTemporary1
+
+*vsDataAnrFunction
+zzzTemporary2
+ZzzTemporary1
