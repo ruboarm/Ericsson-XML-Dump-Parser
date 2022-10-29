@@ -148,6 +148,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataAnrFunctionUtran", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataAnrFunctionUtran? vsDataAnrFunctionUtran { get; set; }
+
+        [XmlElement(ElementName = "vsDataDrxProfile", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataDrxProfile? vsDataDrxProfile { get; set; }
         
     }
 }
