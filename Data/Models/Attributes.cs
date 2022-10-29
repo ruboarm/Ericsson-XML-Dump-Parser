@@ -151,6 +151,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataDrxProfile", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataDrxProfile? vsDataDrxProfile { get; set; }
+
+        [XmlElement(ElementName = "vsDataEUtraNetwork", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataEUtraNetwork? vsDataEUtraNetwork { get; set; }
         
     }
 }
