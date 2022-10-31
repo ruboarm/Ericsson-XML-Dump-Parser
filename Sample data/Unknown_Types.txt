@@ -28,3 +28,6 @@ ZzzTemporary1
 *vsDataAnrFunction
 zzzTemporary2
 ZzzTemporary1
+
+*VsDataExternalENodeBFunction
+masterEnbFunctionId int?
