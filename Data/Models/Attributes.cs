@@ -154,6 +154,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataEUtraNetwork", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataEUtraNetwork? vsDataEUtraNetwork { get; set; }
-        
+
+        [XmlElement(ElementName = "vsDataEUtranCellFDD", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataEUtranCellFDD? vsDataEUtranCellFDD { get; set; }
     }
 }

@@ -31,3 +31,21 @@ ZzzTemporary1
 
 *VsDataExternalENodeBFunction
 masterEnbFunctionId int?
+
+*vsDataEUtranCellFDD
+additionalFreqBandList
+eutranCellPolygon
+spectrumEmissionReqMapping
+qciTableRef
+pciConflictCell -> To check with other models
+pciDetectingCell -> To check with other models
+activeServiceAreaId
+lbabDecr -> string?
+externalCdma20001xRttCellRef -> string?
+additionalSpectrumEmissionValues
+ailgRef -> string?
+idleModePrioAtReleaseRef -> string?
+ttiBundlingSwitchThresHyst -> string?
+useId -> int?
+snExternalCdma20001xRttCellRef -> string?
+pciOSSConflictingCell
