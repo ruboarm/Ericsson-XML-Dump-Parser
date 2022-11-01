@@ -49,3 +49,8 @@ ttiBundlingSwitchThresHyst -> string?
 useId -> int?
 snExternalCdma20001xRttCellRef -> string?
 pciOSSConflictingCell
+
+*vsDataEUtranFreqRelation
+blackListEntry
+eutranFreqToQciProfileRelation
+blackListEntryIdleMode

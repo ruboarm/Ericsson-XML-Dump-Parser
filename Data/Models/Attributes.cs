@@ -157,5 +157,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataEUtranCellFDD", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataEUtranCellFDD? vsDataEUtranCellFDD { get; set; }
+
+        [XmlElement(ElementName = "vsDataEUtranFreqRelation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataEUtranFreqRelation? vsDataEUtranFreqRelation { get; set; }
     }
 }
