@@ -54,3 +54,6 @@ pciOSSConflictingCell
 blackListEntry
 eutranFreqToQciProfileRelation
 blackListEntryIdleMode
+
+*vsDataEUtranCellRelation
+timeOfLastModification
