@@ -163,6 +163,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataEUtranCellRelation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataEUtranCellRelation? vsDataEUtranCellRelation { get; set; }
+
+        [XmlElement(ElementName = "vsDataMimoSleepFunction", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataMimoSleepFunction? vsDataMimoSleepFunction { get; set; }
         
     }
 }
