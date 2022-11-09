@@ -166,6 +166,10 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataMimoSleepFunction", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataMimoSleepFunction? vsDataMimoSleepFunction { get; set; }
+
+        [XmlElement(ElementName = "vsDataUeMeasControl", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataUeMeasControl? vsDataUeMeasControl { get; set; }
+
         
     }
 }
