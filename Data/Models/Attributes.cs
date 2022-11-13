@@ -178,6 +178,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigA4", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigA4? vsDataReportConfigA4 { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigA5", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigA5? vsDataReportConfigA5 { get; set; }
         
     }
 }
