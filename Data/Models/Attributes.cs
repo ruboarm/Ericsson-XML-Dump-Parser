@@ -241,6 +241,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigEUtraIFBestCell", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigEUtraIFBestCell? vsDataReportConfigEUtraIFBestCell { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigEUtraInterFreqLb", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigEUtraInterFreqLb? vsDataReportConfigEUtraInterFreqLb { get; set; }
         
     }
 }
