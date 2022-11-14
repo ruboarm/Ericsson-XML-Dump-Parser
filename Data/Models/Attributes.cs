@@ -220,6 +220,10 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigCsfbUtra", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigCsfbUtra? vsDataReportConfigCsfbUtra { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigCsg", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigCsg? vsDataReportConfigCsg { get; set; }
         
+
     }
 }
