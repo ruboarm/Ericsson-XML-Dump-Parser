@@ -244,6 +244,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigEUtraInterFreqLb", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigEUtraInterFreqLb? vsDataReportConfigEUtraInterFreqLb { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigInterRatLb", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigInterRatLb? vsDataReportConfigInterRatLb { get; set; }
         
     }
 }
