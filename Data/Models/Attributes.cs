@@ -229,6 +229,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigEUtraBadCovSec", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigEUtraBadCovSec? vsDataReportConfigEUtraBadCovSec { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigEUtraBestCell", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigEUtraBestCell? vsDataReportConfigEUtraBestCell { get; set; }
         
     }
 }
