@@ -238,6 +238,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigEUtraIFA3UlTrig", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigEUtraIFA3UlTrig? vsDataReportConfigEUtraIFA3UlTrig { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigEUtraIFBestCell", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigEUtraIFBestCell? vsDataReportConfigEUtraIFBestCell { get; set; }
         
     }
 }
