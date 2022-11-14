@@ -208,6 +208,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigB2Utra", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigB2Utra? vsDataReportConfigB2Utra { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigB2UtraUlTrig", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigB2UtraUlTrig? vsDataReportConfigB2UtraUlTrig { get; set; }
         
     }
 }
