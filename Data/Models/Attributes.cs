@@ -247,6 +247,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigInterRatLb", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigInterRatLb? vsDataReportConfigInterRatLb { get; set; }
+
+        [XmlElement(ElementName = "vsDataReportConfigSearch", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataReportConfigSearch? vsDataReportConfigSearch { get; set; }
         
     }
 }
