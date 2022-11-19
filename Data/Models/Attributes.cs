@@ -250,6 +250,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataReportConfigSearch", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataReportConfigSearch? vsDataReportConfigSearch { get; set; }
+
+        [XmlElement(ElementName = "vsDataUtranFreqRelation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataUtranFreqRelation? vsDataUtranFreqRelation { get; set; }
         
     }
 }

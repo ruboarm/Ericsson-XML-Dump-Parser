@@ -2733,11 +2733,110 @@
                     </xn:attributes>
                   </xn:VsDataContainer>
                 </xn:VsDataContainer>
+                
+                <xn:VsDataContainer id="UMTS_2100_f1_10713">
+                  <xn:attributes>
+                    <xn:vsDataType>vsDataUtranFreqRelation</xn:vsDataType>
+                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                    <es:vsDataUtranFreqRelation>
+                      <es:threshXHighQ>0</es:threshXHighQ>
+                      <es:threshXHigh>4</es:threshXHigh>
+                      <es:cellReselectionPriority>4</es:cellReselectionPriority>
+                      <es:csFallbackPrio>7</es:csFallbackPrio>
+                      <es:utranFreqToQciProfileRelation></es:utranFreqToQciProfileRelation>
+                      <es:pMaxUtra>0</es:pMaxUtra>
+                      <es:userLabel></es:userLabel>
+                      <es:altCsfbTargetPrioEc>-1</es:altCsfbTargetPrioEc>
+                      <es:threshXLowQ>0</es:threshXLowQ>
+                      <es:allowedPlmnList>
+                        <es:mcc>283</es:mcc>
+                        <es:mnc>10</es:mnc>
+                        <es:mncLength>2</es:mncLength>
+                      </es:allowedPlmnList>
+                      <es:qOffsetFreq>0</es:qOffsetFreq>
+                      <es:mobilityActionCsfb>0</es:mobilityActionCsfb>
+                      <es:lbBnrPolicy>3</es:lbBnrPolicy>
+                      <es:voicePrio>1</es:voicePrio>
+                      <es:connectedModeMobilityPrio>4</es:connectedModeMobilityPrio>
+                      <es:maxNrUtranCellRelations>32</es:maxNrUtranCellRelations>
+                      <es:altCsfbTargetPrio>-1</es:altCsfbTargetPrio>
+                      <es:mobilityAction>2</es:mobilityAction>
+                      <es:csFallbackPrioEC>7</es:csFallbackPrioEC>
+                      <es:qQualMin>-15</es:qQualMin>
+                      <es:anrMeasOn>true</es:anrMeasOn>
+                      <es:qRxLevMin>-115</es:qRxLevMin>
+                      <es:threshXLow>10</es:threshXLow>
+                      <es:adjacentFreq>SubNetwork=ONRM_ROOT_MO_R,FreqManagement=1,ExternalUtranFreq=UMTS_2100_f1_10713</es:adjacentFreq>
+                      <es:b2Thr1RsrqUtraFreqOffset>0</es:b2Thr1RsrqUtraFreqOffset>
+                      <es:b2Thr2RscpUtraFreqOffset>0</es:b2Thr2RscpUtraFreqOffset>
+                      <es:b2Thr1RsrpUtraFreqOffset>0</es:b2Thr1RsrpUtraFreqOffset>
+                      <es:b2Thr2EcNoUtraFreqOffset>0</es:b2Thr2EcNoUtraFreqOffset>
+                      <es:atoAllowed>false</es:atoAllowed>
+                    </es:vsDataUtranFreqRelation>
+                  </xn:attributes>
+                  <xn:VsDataContainer id="28310-7-47101">
+                    <xn:attributes>
+                      <xn:vsDataType>vsDataUtranCellRelation</xn:vsDataType>
+                      <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                      <es:vsDataUtranCellRelation>
+                        <es:timeOfCreation>2018-05-31 13:53:16</es:timeOfCreation>
+                        <es:lastModification>2</es:lastModification>
+                        <es:isRemoveAllowed>true</es:isRemoveAllowed>
+                        <es:lbBnrAllowed>true</es:lbBnrAllowed>
+                        <es:coverageIndicator>0</es:coverageIndicator>
+                        <es:timeOfLastModification></es:timeOfLastModification>
+                        <es:lbCovIndicated>false</es:lbCovIndicated>
+                        <es:loadBalancing>0</es:loadBalancing>
+                        <es:isHoAllowed>true</es:isHoAllowed>
+                        <es:createdBy>1</es:createdBy>
+                        <es:adjacentCell>SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCell=28310-7-47101</es:adjacentCell>
+                      </es:vsDataUtranCellRelation>
+                    </xn:attributes>
+                  </xn:VsDataContainer>
+                  <xn:VsDataContainer id="28310-7-47102">
+                    <xn:attributes>
+                      <xn:vsDataType>vsDataUtranCellRelation</xn:vsDataType>
+                      <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                      <es:vsDataUtranCellRelation>
+                        <es:timeOfCreation>2020-10-26 07:18:03</es:timeOfCreation>
+                        <es:lastModification>2</es:lastModification>
+                        <es:isRemoveAllowed>true</es:isRemoveAllowed>
+                        <es:lbBnrAllowed>true</es:lbBnrAllowed>
+                        <es:coverageIndicator>0</es:coverageIndicator>
+                        <es:timeOfLastModification></es:timeOfLastModification>
+                        <es:lbCovIndicated>false</es:lbCovIndicated>
+                        <es:loadBalancing>0</es:loadBalancing>
+                        <es:isHoAllowed>true</es:isHoAllowed>
+                        <es:createdBy>1</es:createdBy>
+                        <es:adjacentCell>SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCell=28310-7-47102</es:adjacentCell>
+                      </es:vsDataUtranCellRelation>
+                    </xn:attributes>
+                  </xn:VsDataContainer>
+                  <xn:VsDataContainer id="28310-7-47103">
+                    <xn:attributes>
+                      <xn:vsDataType>vsDataUtranCellRelation</xn:vsDataType>
+                      <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.28</xn:vsDataFormatVersion>
+                      <es:vsDataUtranCellRelation>
+                        <es:timeOfCreation>2022-07-23 04:37:41</es:timeOfCreation>
+                        <es:lastModification>2</es:lastModification>
+                        <es:isRemoveAllowed>true</es:isRemoveAllowed>
+                        <es:lbBnrAllowed>true</es:lbBnrAllowed>
+                        <es:coverageIndicator>0</es:coverageIndicator>
+                        <es:timeOfLastModification></es:timeOfLastModification>
+                        <es:lbCovIndicated>false</es:lbCovIndicated>
+                        <es:loadBalancing>0</es:loadBalancing>
+                        <es:isHoAllowed>true</es:isHoAllowed>
+                        <es:createdBy>1</es:createdBy>
+                        <es:adjacentCell>SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCell=28310-7-47103</es:adjacentCell>
+                      </es:vsDataUtranCellRelation>
+                    </xn:attributes>
+                  </xn:VsDataContainer>
+                  
+                </xn:VsDataContainer>
 
-              
-              
+
               </xn:VsDataContainer>
-            
+
             </xn:VsDataContainer>
           </xn:ManagedElement>
         </xn:MeContext>
