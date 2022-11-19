@@ -253,6 +253,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataUtranFreqRelation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataUtranFreqRelation? vsDataUtranFreqRelation { get; set; }
+
+        [XmlElement(ElementName = "vsDataUtranCellRelation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataUtranCellRelation? vsDataUtranCellRelation { get; set; }
         
     }
 }

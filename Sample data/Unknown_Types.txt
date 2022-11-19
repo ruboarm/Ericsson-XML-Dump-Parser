@@ -65,3 +65,10 @@ zzzTemporary2 -> int?
 zzzTemporary1 -> int?
 zzzTemporary4 -> int?
 zzzTemporary3 -> int?
+
+*vsDataUtranFreqRelation
+utranFreqToQciProfileRelation
+
+*vsDataUtranCellRelation
+timeOfLastModification
+
