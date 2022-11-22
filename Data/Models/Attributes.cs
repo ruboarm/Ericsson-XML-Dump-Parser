@@ -259,6 +259,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataLoadBalancingFunction", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataLoadBalancingFunction? vsDataLoadBalancingFunction { get; set; }
+
+        [XmlElement(ElementName = "vsDataPaging", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataPaging? vsDataPaging { get; set; }
         
     }
 }
