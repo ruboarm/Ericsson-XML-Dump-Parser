@@ -265,6 +265,12 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataPmEventService", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataPmEventService? vsDataPmEventService { get; set; }
+
+        [XmlElement(ElementName = "vsDataQciTable", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public object? vsDataQciTable { get; set; } // Unknown Type
+
+        [XmlElement(ElementName = "vsDataLogicalChannelGroup", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataLogicalChannelGroup? vsDataLogicalChannelGroup { get; set; }
         
     }
 }
