@@ -262,6 +262,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataPaging", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataPaging? vsDataPaging { get; set; }
+
+        [XmlElement(ElementName = "vsDataPmEventService", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataPmEventService? vsDataPmEventService { get; set; }
         
     }
 }
