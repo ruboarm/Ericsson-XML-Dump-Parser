@@ -355,3 +355,4 @@ MigrationBackup/
 # Exclude Sample Data files from Git
 Sample data/
 /Sample data/dump.xml
+/Sample data/Unknown_Types.txt
