@@ -352,5 +352,5 @@ MigrationBackup/
 
 
 
-# Exclude Unknown_Types.txt from Git
+# Exclude Sample Data files from Git
 Sample data/

@@ -256,6 +256,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataUtranCellRelation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataUtranCellRelation? vsDataUtranCellRelation { get; set; }
+
+        [XmlElement(ElementName = "vsDataLoadBalancingFunction", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataLoadBalancingFunction? vsDataLoadBalancingFunction { get; set; }
         
     }
 }
