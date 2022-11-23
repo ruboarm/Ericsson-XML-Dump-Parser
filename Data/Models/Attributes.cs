@@ -271,6 +271,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataLogicalChannelGroup", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataLogicalChannelGroup? vsDataLogicalChannelGroup { get; set; }
+
+        [XmlElement(ElementName = "vsDataQciProfilePredefined", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataQciProfilePredefined? vsDataQciProfilePredefined { get; set; }
         
     }
 }
