@@ -274,6 +274,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataQciProfilePredefined", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataQciProfilePredefined? vsDataQciProfilePredefined { get; set; }
+
+        [XmlElement(ElementName = "vsDataSciProfile", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSciProfile? vsDataSciProfile { get; set; }
         
     }
 }
