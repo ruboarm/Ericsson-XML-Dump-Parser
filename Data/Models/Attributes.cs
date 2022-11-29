@@ -277,6 +277,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataSciProfile", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataSciProfile? vsDataSciProfile { get; set; }
+
+        [XmlElement(ElementName = "vsDataRcs", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataRcs? vsDataRcs { get; set; }
         
     }
 }
