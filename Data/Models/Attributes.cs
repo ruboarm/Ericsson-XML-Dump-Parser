@@ -280,6 +280,10 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataRcs", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataRcs? vsDataRcs { get; set; }
+
+        [XmlElement(ElementName = "vsDataRrc", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataRrc? vsDataRrc { get; set; }
+
         
     }
 }
