@@ -284,6 +284,8 @@ namespace Data.Models
         [XmlElement(ElementName = "vsDataRrc", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataRrc? vsDataRrc { get; set; }
 
+        [XmlElement(ElementName = "vsDataSectorCarrier", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSectorCarrier? vsDataSectorCarrier { get; set; }
         
     }
 }
