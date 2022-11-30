@@ -286,6 +286,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataSectorCarrier", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataSectorCarrier? vsDataSectorCarrier { get; set; }
+
+        [XmlElement(ElementName = "vsDataPmUlInterferenceReport", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataPmUlInterferenceReport? vsDataPmUlInterferenceReport { get; set; }
         
     }
 }
