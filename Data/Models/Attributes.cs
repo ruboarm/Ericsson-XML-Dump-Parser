@@ -289,6 +289,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataPmUlInterferenceReport", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataPmUlInterferenceReport? vsDataPmUlInterferenceReport { get; set; }
+
+        [XmlElement(ElementName = "vsDataSecurityHandling", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataSecurityHandling? vsDataSecurityHandling { get; set; }
         
     }
 }
