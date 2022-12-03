@@ -292,6 +292,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataSecurityHandling", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataSecurityHandling? vsDataSecurityHandling { get; set; }
+
+        [XmlElement(ElementName = "vsDataTermPointToMme", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataTermPointToMme? vsDataTermPointToMme { get; set; }
         
     }
 }
