@@ -295,6 +295,9 @@ namespace Data.Models
 
         [XmlElement(ElementName = "vsDataTermPointToMme", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public vsDataTermPointToMme? vsDataTermPointToMme { get; set; }
+
+        [XmlElement(ElementName = "vsDataUtraNetwork", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
+        public vsDataUtraNetwork? vsDataUtraNetwork { get; set; }
         
     }
 }
