@@ -12,6 +12,6 @@ namespace Data.Models
         public string Text { get; set; }
 
         [XmlElement(ElementName = "SubNetwork")]
-        public SubNetwork SubNetwork { get; set; }
+        public List<SubNetwork> SubNetworks { get; set; }
     }
 }
