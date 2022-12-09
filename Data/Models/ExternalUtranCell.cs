@@ -8,7 +8,7 @@ namespace Data.Models
         [XmlAttribute(AttributeName = "id", Namespace = "utranNrm.xsd")]
         public string Id { get; set; }
 
-        [XmlAttribute(AttributeName = "attributes", Namespace = "utranNrm.xsd")]
+        [XmlElement(ElementName = "attributes", Namespace = "utranNrm.xsd")]
         public ExternalUtranCellAttributes Attributes { get; set; }
 
         [XmlElement(ElementName = "VsDataContainer", Namespace = "genericNrm.xsd")]
