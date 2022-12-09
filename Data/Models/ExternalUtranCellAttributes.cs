@@ -6,10 +6,10 @@ namespace Data.Models
     public class ExternalUtranCellAttributes
     {
         [XmlElement(ElementName = "rac", Namespace = "utranNrm.xsd")]
-        public int Rac { get; set; }
+        public int? Rac { get; set; }
 
         [XmlElement(ElementName = "lac", Namespace = "utranNrm.xsd")]
-        public int Lac { get; set; }
+        public int? Lac { get; set; }
 
         [XmlElement(ElementName = "primaryCpichPower", Namespace = "utranNrm.xsd")]
         public int PrimaryCpichPower { get; set; }
@@ -21,7 +21,7 @@ namespace Data.Models
         public int UarfcnDl { get; set; }
 
         [XmlElement(ElementName = "uarfcnUl", Namespace = "utranNrm.xsd")]
-        public int UarfcnUl { get; set; }
+        public int? UarfcnUl { get; set; }
 
         [XmlElement(ElementName = "mnc", Namespace = "utranNrm.xsd")]
         public int Mnc { get; set; }
@@ -36,6 +36,6 @@ namespace Data.Models
         public int CId { get; set; }
 
         [XmlElement(ElementName = "userLabel", Namespace = "utranNrm.xsd")]
-        public string UserLabel { get; set; }
+        public string? UserLabel { get; set; }
     }
 }
