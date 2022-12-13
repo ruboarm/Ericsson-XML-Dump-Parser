@@ -6,7 +6,7 @@ namespace Data.Models
     public class vsDataManagedElement
     {
         [XmlElement(ElementName = "mirrorRelease", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
-        public double? MirrorRelease { get; set; }
+        public string? MirrorRelease { get; set; }
 
         [XmlElement(ElementName = "siteLocation", Namespace = "EricssonSpecificAttributes.17.28.xsd")]
         public string? SiteLocation { get; set; }
