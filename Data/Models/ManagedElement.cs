@@ -12,6 +12,6 @@ namespace Data.Models
         public ManagedElementAttributes Attributes { get; set; }
 
         [XmlElement(ElementName = "VsDataContainer", Namespace = "genericNrm.xsd")]
-        public VsDataContainer VsDataContainer { get; set; }
+        public List<VsDataContainer> VsDataContainers { get; set; }
     }
 }
