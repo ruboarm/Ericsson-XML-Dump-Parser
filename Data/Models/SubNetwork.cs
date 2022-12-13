@@ -20,11 +20,11 @@ namespace Data.Models
         [XmlElement(ElementName = "ExternalUtranCell", Namespace = "utranNrm.xsd")]
         public List<ExternalUtranCell>? ExternalUtranCells { get; set; }
 
-        [XmlElement(ElementName = "", Namespace = "")]
+        [XmlElement(ElementName = "ManagementNode", Namespace = "genericNrm.xsd")]
         public ManagementNode? ManagementNode { get; set; }
 
         [XmlElement(ElementName = "SubNetwork", Namespace = "genericNrm.xsd")]
-        public List<SubNetwork>? ChildSubNetworks { get; set; }
+        public List<SubNetwork>? SubNetworks { get; set; }
 
         [XmlElement(ElementName = "MeContext", Namespace = "genericNrm.xsd")]
         public List<MeContext>? MeContexts { get; set; }
