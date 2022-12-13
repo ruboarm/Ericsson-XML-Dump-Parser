@@ -5,11 +5,25 @@ namespace Data.Models
     [XmlRoot(ElementName = "attributes", Namespace = "utranNrm.xsd")]
     public class ExternalUtranCellAttributes
     {
-        [XmlElement(ElementName = "rac", Namespace = "utranNrm.xsd")]
+        [XmlIgnore]
         public int? Rac { get; set; }
 
-        [XmlElement(ElementName = "lac", Namespace = "utranNrm.xsd")]
+        [XmlElement(ElementName = "rac", Namespace = "utranNrm.xsd")]
+        public string RacAsText
+        {
+            get { return (Rac.HasValue) ? Rac.ToString() : null; }
+            set { Rac = !string.IsNullOrEmpty(value) ? int.Parse(value) : default(int?); }
+        }
+
+        [XmlIgnore]
         public int? Lac { get; set; }
+
+        [XmlElement(ElementName = "lac", Namespace = "utranNrm.xsd")]
+        public string LacAsText
+        {
+            get { return (Lac.HasValue) ? Lac.ToString() : null; }
+            set { Lac = !string.IsNullOrEmpty(value) ? int.Parse(value) : default(int?); }
+        }
 
         [XmlElement(ElementName = "primaryCpichPower", Namespace = "utranNrm.xsd")]
         public int PrimaryCpichPower { get; set; }
@@ -20,8 +34,15 @@ namespace Data.Models
         [XmlElement(ElementName = "uarfcnDl", Namespace = "utranNrm.xsd")]
         public int UarfcnDl { get; set; }
 
-        [XmlElement(ElementName = "uarfcnUl", Namespace = "utranNrm.xsd")]
+        [XmlIgnore]
         public int? UarfcnUl { get; set; }
+
+        [XmlElement(ElementName = "uarfcnUl", Namespace = "utranNrm.xsd")]
+        public string UarfcnUlAsText
+        {
+            get { return (UarfcnUl.HasValue) ? UarfcnUl.ToString() : null; }
+            set { UarfcnUl = !string.IsNullOrEmpty(value) ? int.Parse(value) : default(int?); }
+        }
 
         [XmlElement(ElementName = "mnc", Namespace = "utranNrm.xsd")]
         public int Mnc { get; set; }
