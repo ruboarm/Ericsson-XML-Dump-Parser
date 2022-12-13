@@ -11,7 +11,7 @@ namespace Data.Models
         [XmlText]
         public string Text { get; set; }
 
-        [XmlElement(ElementName = "SubNetwork")]
-        public List<SubNetwork> SubNetworks { get; set; }
+        [XmlElement(ElementName = "SubNetwork", Namespace = "genericNrm.xsd")]
+        public SubNetwork SubNetwork { get; set; }
     }
 }
