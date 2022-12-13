@@ -68,8 +68,15 @@ namespace Data.Models
         [XmlElement(ElementName = "lostSynchronisation", Namespace = "genericNrm.xsd")]
         public string LostSynchronisation { get; set; }
 
-        [XmlElement(ElementName = "nodeStartTime", Namespace = "genericNrm.xsd")]
+        [XmlIgnore]
         public DateTime? NodeStartTime { get; set; }
+
+        [XmlElement(ElementName = "nodeStartTime", Namespace = "genericNrm.xsd")]
+        public string NodeStartTimeAsText
+        {
+            get { return (NodeStartTime.HasValue) ? NodeStartTime.ToString() : null; }
+            set { NodeStartTime = !string.IsNullOrEmpty(value) ? DateTime.Parse(value) : default(DateTime?); }
+        }
 
         [XmlElement(ElementName = "pendingRestart", Namespace = "genericNrm.xsd")]
         public bool PendingRestart { get; set; }
