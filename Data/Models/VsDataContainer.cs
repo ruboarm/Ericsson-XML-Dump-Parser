@@ -8,13 +8,10 @@ namespace Data.Models
         [XmlAttribute(AttributeName = "id")]
         public string Id { get; set; }
 
-        [XmlText]
-        public string Text { get; set; }
-
         [XmlElement(ElementName = "attributes")]
         public Attributes Attributes { get; set; }
 
         [XmlElement(ElementName = "vsDataContainer", Namespace = "genericNrm.xsd")]
-        public List<VsDataContainer> ChildVsDataContainers { get; set; } //
+        public List<VsDataContainer> ChildVsDataContainers { get; set; }
     }
 }
