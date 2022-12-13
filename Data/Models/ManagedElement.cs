@@ -13,5 +13,8 @@ namespace Data.Models
 
         [XmlElement(ElementName = "VsDataContainer", Namespace = "genericNrm.xsd")]
         public List<VsDataContainer> VsDataContainers { get; set; }
+
+        [XmlElement(ElementName = "NodeBFunction", Namespace = "utranNrm.xsd")]
+        public NodeBFunction? NodeBFunction { get; set; }
     }
 }
