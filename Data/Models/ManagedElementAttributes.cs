@@ -8,8 +8,15 @@ namespace Data.Models
         [XmlElement(ElementName = "locationName", Namespace = "genericNrm.xsd")]
         public string? LocationName { get; set; }
         
-        [XmlElement(ElementName = "userDefinedState", Namespace = "genericNrm.xsd")]
+        [XmlIgnore]
         public int? UserDefinedState { get; set; }
+
+        [XmlElement(ElementName = "userDefinedState", Namespace = "genericNrm.xsd")]
+        public string UserDefinedStateAsText
+        {
+            get { return (UserDefinedState.HasValue) ? UserDefinedState.ToString() : null; }
+            set { UserDefinedState = !string.IsNullOrEmpty(value) ? int.Parse(value) : default(int?); }
+        }
 
         [XmlElement(ElementName = "vendorName", Namespace = "genericNrm.xsd")]
         public string? VendorName { get; set; }
