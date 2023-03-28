@@ -3,7 +3,7 @@ Via the Parser it's possible to read Ericsson Mobile network Dump file exported 
 
 **_Important: Currently only LTE part is ready!!!_**
 
-A sample XML file is included in the repository for test purposes.\
+A sample XML file is included in the repository for test purposes.
 
 # Sample Usage
 ```C#
